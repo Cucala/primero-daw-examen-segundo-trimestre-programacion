@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="ejeccio_uno.main" target="17" />
+      <module name="ejeccio_uno.test" target="17" />
       <module name="ejercicio_uno" target="17" />
     </bytecodeTargetLevel>
   </component>
