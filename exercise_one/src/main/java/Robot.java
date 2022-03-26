@@ -17,7 +17,7 @@ public class Robot {
 
     @Override
     public String toString() {
-        return "Robots {"
+        return "Robot {"
                     + "Numero=" + this.number
                     + ", Vida=" + this.life
                 + "}";

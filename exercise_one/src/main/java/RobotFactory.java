@@ -1,18 +1,18 @@
 import java.util.ArrayList;
 
-public class App {
+public class RobotFactory {
     private final ArrayList<Robot> robots = new ArrayList<>();
 
     public static void main(String[] args) {
-        App app = new App();
-        app.createRobots();
-        app.printRobotsList();
+        RobotFactory robotFactory = new RobotFactory();
+        robotFactory.createRobots();
+        robotFactory.printRobotsList();
         System.out.println();
-        app.printRobotsOrderedFromLargestToSmallest();
+        robotFactory.printRobotsOrderedFromLargestToSmallest();
         System.out.println();
-        app.printNumberOfRobotsWithMoreOf50PercentOfLife();
+        robotFactory.printNumberOfRobotsWithMoreOf50PercentOfLife();
         System.out.println();
-        app.printTheThreeRobotsWithMoreLife();
+        robotFactory.printTheThreeRobotsWithMoreLife();
     }
 
     public void createRobots() {
