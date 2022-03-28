@@ -42,6 +42,6 @@ Se va a implementar un juego en el que el usuario tenga que adivinar un número 
 - Clase **GuessOdd**:
   - Deriva de la clase GuessNumber.
   - Redefine el método validate() devolviendo true si el número es impar. Si el número es par, muestra un mensaje de error por pantalla y devuelve false.
-- Clase **RobotFactory**:
+- Clase **App**:
   - El método main crea una instancia de cada uno de los tres juegos creados: GuessNumber, GuessPair y GuessOdd. Como número de vidas de cada juego se pondrá 3 y como número a adivinar un número cualquiera (Random), otro par y otro impar respectivamente, todos comprendidos entre el 0 y el 10.
   - El jugador mediante un menú seleccionara a que juego quiere jugar cuando finalice el juego volverá a este menú. Para salir el jugador escribirá Salir.
